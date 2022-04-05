@@ -1,0 +1,48 @@
+/* Import the google web fonts you want to use */
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import url(users/Users.css);
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: "Georgia", Georgia, "Times New Roman", Times, serif, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Georgia", serif;
+  letter-spacing: 2px;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+@import url(users/Users.css);
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url(auth/Login.css);
+
+body {
+  font-family: "Fjalla One", sans-serif;
+  height: 95vh;
+  background-color: rgb(246, 248, 248);
+}
+
+/* html {
+  background: url(https://assets.renewalbyandersen.com/-/media/images/components/navigation/logo-rba-horizontal-black.png?h=455&iar=0&w=1182&hash=70AB47981D99EE1F09979FCF6A4B7646) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */

@@ -1,0 +1,45 @@
+#userInventoryButton {
+  display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid transparent;
+  border-color: #000;
+  color: #000;
+  background: transparent;
+  font-weight: 800;
+  line-height: 30px;
+  transition: background, color 0.1s ease-in-out;
+  border-radius: 15%;
+  margin-right: 0.5rem;
+  margin-left: 0.2rem;
+  box-shadow: 1px 1px 2px;
+}
+
+#itemsNumberMessage {
+  margin-left: 0.2rem;
+  font: 16px Georgia, serif;
+  text-align: center;
+}
+
+#UserInventoryList--container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2rem;
+}
+
+#userInventoryButton:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.userInventoryList--paragrpah {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin-left: 35%;
+  margin-right: 35%;
+}

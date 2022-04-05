@@ -1,0 +1,91 @@
+.inventory__List {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  flex: 1;
+  flex-basis: 15.5%;
+  border: 1px solid black;
+  margin: 8px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 0.4rem;
+  flex-grow: 0;
+  text-align: center;
+  border-radius: 5%;
+  transition: all 200ms ease-in-out;
+  font: 16px Georgia, serif;
+  background-color: white;
+}
+
+.inventory__List:hover {
+  box-shadow: 10px 10px 12px grey;
+  border: 0.75rem;
+  cursor: pointer;
+}
+
+#imgWrapper {
+  text-align: center;
+}
+
+#inventoryImg {
+  height: 6rem;
+  width: 6rem;
+}
+
+#deleteButton {
+  margin-left: 1.5rem;
+}
+
+#editButton {
+  margin-right: 1.5rem;
+}
+
+#centerpiece {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.buttonContainer {
+  justify-content: space-between;
+}
+
+.buttonContainer button {
+  border: none;
+  background: none;
+}
+
+#totalItemsMessage {
+  margin-left: 0.4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font: 16px Georgia, serif;
+}
+
+.inventoryListCreateButton {
+  display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  font-size: 12px;
+  border: 1px solid transparent;
+  border-color: #000;
+  color: #000;
+  background: rgb(250, 250, 250);
+  font-weight: 800;
+  line-height: 2rem;
+  transition: background, color 0.1s ease-in-out;
+  align-items: center;
+  margin-left: 0.4rem;
+  border-radius: 5%;
+  box-shadow: 1px 2px 4px;
+}
+
+.inventoryListCreateButton:hover {
+  background-color: #000;
+  color: #fff;
+}
